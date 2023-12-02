@@ -1,0 +1,138 @@
+main {
+  min-height: 100vh;
+  
+}
+
+.image{
+  
+  margin: 30px;
+  background-image: url("travel.jpg");
+  background-repeat: no-repeat;
+  height: 30vh;
+  background-position:center;  
+  background-size: 100%;
+  position: relative;
+ 
+}
+
+h1{
+ justify-content: center ;
+ 
+top: 30px;
+  left: 240px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:black; 
+  font-size: 40px;
+  font-weight: 800;
+  flex-basis: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+
+}
+
+a {
+  float: left;
+  margin-left: 80px;
+  color: rgb(11, 11, 149);
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+a:hover {
+  background-color:rgb(67, 111, 158);
+  color: white
+}
+h2{
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(11, 11, 149);
+}
+#s-div{
+  background-color:rgb(232, 251, 250);
+  margin: 5px 30px 10px 20px;
+  padding: 2px 10px ;
+  border-radius: 5px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+#depart,
+#arrive {
+  width: 10rem;
+  margin: 10rem ,0rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.search{
+  color: rgb(11, 11, 149);
+  font-weight: bold;
+  font-size: large;
+  padding: 40px;
+  
+}
+#s-button{
+padding: 8px 30px ;
+margin: 100px ;
+margin-left: -350px;
+background-color: rgb(11, 11, 149);
+color: white;
+font-weight: bold;
+font-size: large;
+width: fit-content;
+border-radius: 5px;
+}
+.section-p{
+  margin: 10px;
+  padding:20px;
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+
+}
+.i-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:10px 10px;
+  box-shadow: 0px 0px 2px 2px rgb(189, 185, 185);
+  padding: 10px;
+  width: 200px;
+  height: 270px;
+}
+.i-count {
+  margin: 0;
+}
+
+.para{
+  color: rgb(53, 19, 19);
+  font-weight: bold;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:rgb(232, 251, 250);
+  padding: 10px;
+}
+
+.social-icon {
+  width: 35px;
+  height: 20px;
+  margin: 0 3px;
+}
